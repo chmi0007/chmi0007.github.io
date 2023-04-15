@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Temperature Converter</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="tempvert.css" />
+	<link rel="stylesheet" href="tempvert.js" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="icons/poffish.png" alt="icon">
+	<meta name="description" content="Temperature Converter">
+	<meta name="keywords" content="HTML, HTML5, Basic HTML, Tags, Standard Tags Temperature, Converter, Celcius, Fahrenheit">
+  </head>
+  <body>
+	<div class="container">
+      <div class="temperature-converter">
+        <h1 class="title">Temperature Converter</h2><h7>Desired Temperature 20&deg;C</h7>
+        <div class="result">
+          <span class="result-heading">Result (Celsius)</span>
+          <h3 class="celsius-value" id="celsius"></h3>
+        </div>
+        <div class="degree-type">
+          <div class="degree-field">
+            <label for="degree">Degrees</label>
+            <input type="number" name="degree" id="degree" />
+          </div>
+          <div class="temp-field">
+            <label for="temp-type">Type</label>
+            <select name="temperatures" id="temp-type" autocomplete="on">
+              <option id="fahrenheit" value="fahrenheit">Fahrenheit</option>
+              <option id="kelvin" value="kelvin">Kelvin</option>
+            </select>
+          </div>
+        </div>
+        <button id="convert-btn">Convert</button>
+      </div>
+    </div>
+<section><h6>
+<div class="column">
+<div style="text-align: left;"><img src="1tempgauge.jpg" width="100" alt="picture of thermometer"/>:)</div>
+</div></h6>
+</section>
+    <script src="tempvert.js"></script>
+  </body>
+	<footer>
+			<p><h3>Internet Application<br>Assignment 4: Temperature Converter with a Picture<br><h2>Created by:<a href="mailto:chmi0007@alfoquinlive.com">Laurienne Chmielewski</a> to email me</h2></a><br>Professor Dr. Abderahman Huthaifa<br>Due Date: April 17,2023</h3>
+	</footer>
+	</body>
+</html>
+<!--https://codesandbox.io/s/temperature-converter-8l6bix?file=/style.css:0-1657-->
+  <!--https://javascript.plainenglish.io/building-a-temperature-converter-app-using-html-css-and-javascript-52097d9d3e98-->
