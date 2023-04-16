@@ -1,3 +1,4 @@
+alert("\"My Javascript Contribution. I WANT AN A+\"");
 const celsiusElem = document.querySelector("#celsius");
 const degree = document.querySelector("#degree");
 const convertBtn = document.querySelector("#convert-btn");
